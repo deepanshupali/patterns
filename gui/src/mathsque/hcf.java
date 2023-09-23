@@ -14,6 +14,6 @@ public static void main(String[] args) {
 		divisor=rem;
 	}
 	System.out.println(divisor);
-}
+} 
 }
 //lcm*ncf = a*bfe
