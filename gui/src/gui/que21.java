@@ -3,7 +3,7 @@ package gui;
 public class que21 {
 que21(int input){
 	int n= input;
-	int row=1;
+	int row=1; 
 	int nst=1;
 	int nst2=1;
 	int nsp=2*n-3;

@@ -8,19 +8,16 @@ public class inversenumber {
 		// TODO Auto-generated method stub
 		Scanner input  = new Scanner(System.in);
 		int n = input.nextInt();
-		int remain=n;
-		int number=1;
-		int reverse = 0;
-		int count =0;
-		while(number!=0) {
-			int last= remain%10;
-			System.out.println(remain);
-			reverse = reverse*10+last;
-			 remain=remain/10;
-			 number =remain;
-			count++;
-		}
-		System.out.println(count);
+        int  inv =0;
+        int op=1;
+        while(n!=0){ 
+            int od = n%10;
+            int id=op;
+            int ip=od;
+            inv = inv +id*(int)Math.pow(10,ip-1);
+            n=n/10;
+            op++;}
+        System.out.println(inv);
 	}
 
 }

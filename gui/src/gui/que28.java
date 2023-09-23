@@ -39,7 +39,7 @@ que28(int input){
 	int nst  =1;
 	int nsp=n-1;
 	
-	
+	 
 	while(row<=n) {
 		int val = row;
 		int csp=0;

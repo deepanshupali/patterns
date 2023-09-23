@@ -13,7 +13,7 @@ que7(int input){
 				System.out.print("* ");
 				cst++;
 			}
-			
+			 
 		}
 		else {
 			int csp = 0;

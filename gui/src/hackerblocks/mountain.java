@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	Scanner input  = new Scanner(System.in);
 	int n = input.nextInt();
 	int row=1;
-	int nst=1;
+	int nst=1; 
 	int nst2=1;
 	int nsp=2*n-3;
 	

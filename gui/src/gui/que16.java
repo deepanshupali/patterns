@@ -24,7 +24,7 @@ que16(int input){
 		row++;
 		if(row>size) {
 			nsp = nsp +1;
-			nst= nst+1;
+			nst= nst+1; 
 		}
 		else {
 			nsp = nsp -1;

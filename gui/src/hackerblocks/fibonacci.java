@@ -14,8 +14,6 @@ public static void main(String[] args) {
 	if(n==0) {
 		System.out.println(n);
 	}else {
-	
-		
 		
 		while(row<=n) {
 			int cst= 0;
