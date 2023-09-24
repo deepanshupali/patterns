@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		if(row<=n) {
 			 val = row;
 		}
-		else {
+		else { 
 			 val=num2;
 		}
 		

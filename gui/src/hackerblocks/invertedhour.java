@@ -34,8 +34,9 @@ public static void main(String[] args) {
 		
 		int no1=no;
 		while(cst2<nst2) {
-			System.out.print(no1+" ");
-			no1++;
+			num++;
+			System.out.print(num+" ");
+//			no1++;
 			cst2++;
 		}
 		

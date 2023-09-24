@@ -8,11 +8,11 @@ public static void main(String[] args) {
 	
 	int n=scan.nextInt();
 	//input no of rows for print pascal triangle
-	int count=1;
+	
 	int i=0; 
 	while(i<n){
 	   
-	   count=1;
+	  int count=1;
 	   int k=0;
 	   while(k<=i){
 	   System.out.print(count+"\t");
@@ -23,6 +23,7 @@ public static void main(String[] args) {
 	   System.out.println();
 
 	i++;
+	
 	}
 	}
 }
